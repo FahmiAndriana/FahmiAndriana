@@ -1,0 +1,71 @@
+*{
+ 
+}
+html,
+body {
+  height: 100%;
+  background: rgb(3,196,161);
+  background: linear-gradient(61deg, rgba(3,196,161,1) 10%, rgba(41,44,109,1) 90%); 
+}
+
+body {
+  background-image: 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292c6d;
+  
+}
+.login-form {
+  width: 370px;
+  height: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.65);
+}
+input[type='email'],
+input[type='password'] {
+  background: white;
+  color: #292c6d;
+  border: 2px solid #292c6d;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+input[type='email']:focus,
+input[type='password']:focus {
+  outline: none;
+  border: none;
+  background: #292c6d;
+  color: #fff;
+  margin: 0;
+}
+.card-title {
+  font-weight: 900;
+  padding-top: 0px;
+}
+.btn {
+
+  background: rgb(3,196,161);
+  background: linear-gradient(61deg, rgba(3,196,161,1) 10%, rgba(41,44,109,1) 90%);
+  color: black |important;
+  transform: translateY(10px);
+  font-size: 14px;
+  border-radius: 50px |important;
+}
+h1{
+  padding-bottom:15px;
+  margin-top:10px;
+  font-family: 'Road Rage', cursive;
+  font-size: 60px;
+  
+}
+.animate__animated {
+  
+}
